@@ -6,6 +6,7 @@
 * {
     margin: 0;
     padding: 0;
+    color: #130F49;
 }
 
 body {
@@ -66,8 +67,10 @@ body {
     margin: 1vw 0 1vw 0;
 }
 
-.joinbutton {
-    width: 10vw;
+input.image-button{
+    background: url('/assets/img/joinicon.png') no-repeat left center;
+    padding-left: 1vw;
+    width: 15vw;
     height: 4vw;
     border-radius: 20px;
     font-size: 2vw;
@@ -81,7 +84,16 @@ body {
     flex-direction: row;
     align-items: end;
 }
-.sec .joinbutton {
+.card input.image-button {
+    background: url('/assets/img/joinicondark.png') no-repeat left center;
+    background-color: #CCE8FD;
+    padding-left: 2vw;
+    margin-top: 3vw;
+    color: #130F49;
+    border: 0;
+}
+.sec input.image-button {
+    background: url('/assets/img/joinicondark.png') no-repeat left center;
     background-color: #CCE8FD;
     color: #130F49;
     border: 0;
@@ -134,6 +146,7 @@ body {
     padding: 5% 5% 5% 5%;
     border-radius: 2vw;
 }
+
 .card{
     display: flex;
     flex-direction: row;
@@ -160,10 +173,17 @@ body {
 }
 
 footer {
-    background-color: #092253;
+    display: flex;
+    justify-content: space-between;
+    background-color: #130F49;
     
 }
 footer img{
     width: 10vw;
     padding: 3vw
+}
+
+.social_icons{
+    width:30px;
+
 }

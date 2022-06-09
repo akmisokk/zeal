@@ -67,7 +67,7 @@ body {
     margin: 1vw 0 1vw 0;
 }
 
-input.image-button{
+.prefold input.image-button{
     background: url('/assets/img/joinicon.png') no-repeat left center;
     padding-left: 1vw;
     width: 15vw;

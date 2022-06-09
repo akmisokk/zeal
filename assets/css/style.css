@@ -85,7 +85,7 @@ input.image-button{
     align-items: end;
 }
 .card input.image-button {
-    background: url('/assets/img/joinicondark.png') no-repeat left center;
+    background: url('../img/joinicondark.png') no-repeat left center;
     background-color: #CCE8FD;
     padding-left: 2vw;
     margin-top: 3vw;
@@ -93,7 +93,7 @@ input.image-button{
     border: 0;
 }
 .sec input.image-button {
-    background: url('/assets/img/joinicondark.png') no-repeat left center;
+    background: url('../img/joinicondark.png') no-repeat left center;
     background-color: #CCE8FD;
     color: #130F49;
     border: 0;

@@ -67,7 +67,7 @@ body {
     margin: 1vw 0 1vw 0;
 }
 
-input.image-button{
+.image-button{
     background: url('../img/joinicon.png') no-repeat left center;
     padding-left: 1vw;
     width: 15vw;
@@ -84,7 +84,7 @@ input.image-button{
     flex-direction: row;
     align-items: end;
 }
-.card input.image-button {
+.card .image-button {
     background: url('../img/joinicondark.png') no-repeat left center;
     background-color: #CCE8FD;
     padding-left: 2vw;
@@ -92,7 +92,7 @@ input.image-button{
     color: #130F49;
     border: 0;
 }
-.sec input.image-button {
+.sec .image-button {
     background: url('../img/joinicondark.png') no-repeat left center;
     background-color: #CCE8FD;
     color: #130F49;
